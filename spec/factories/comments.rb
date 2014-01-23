@@ -1,9 +1,8 @@
 # Read about factories at https://github.com/thoughtbot/factory_girl
 
 FactoryGirl.define do
-  factory :user do
-    email "MyString"
-    password "MyString"
-    avatar "MyString"
+  factory :comment do
+    comment "MyText"
+    commentable nil
   end
 end
