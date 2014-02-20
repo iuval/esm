@@ -1,4 +1,4 @@
 class Story < ActiveRecord::Base
   belongs_to :user
-  belongs_to :epic
+  belongs_to :sprint
 end

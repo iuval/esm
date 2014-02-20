@@ -1,4 +1,8 @@
 Esm::Application.routes.draw do
+  resources :projects
+
+  resources :sprints
+
   devise_for :users
   resources :users
 
